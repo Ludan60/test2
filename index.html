@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="السراج المنير - حلول تقنية متكاملة لتصميم المواقع والتطبيقات وخدمات الاستضافة">
+    <meta name="keywords" content="تصميم مواقع، تطبيقات جوال، استضافة مواقع، حلول تقنية، برمجة، تطوير ويب">
+    <meta name="author" content="السراج المنير">
+    <meta name="theme-color" content="#1e40af">
+    <meta name="application-name" content="السراج المنير">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="السراج المنير">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-TileColor" content="#1e40af">
+    <meta name="msapplication-navbutton-color" content="#1e40af">
+    <meta name="msapplication-tap-highlight" content="no">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="assets/css/style.css" as="style">
+    <link rel="preload" href="assets/js/main.js" as="script">
+    <link rel="preload" href="assets/images/icon.png" as="image">
+    
+    <!-- Preconnect to important domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    
+    <!-- Critical CSS -->
+    <style>
+        :root {
+            --primary-color: #b8d65c;
+            --secondary-color: #3b82f6;
+            --dark-color: #1e293b;
+            --light-color: #f8fafc;
+            --gray-color: #94a3b8;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+        
+        body {
+            font-family: 'Tajawal', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+        }
+    </style>
+    
+    <!-- Font Loading -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="assets/fonts/BalooBhaijaan2-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    
+    <!-- Essential CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icon.png">
+    
+    <!-- Meta Tags -->
+    <meta property="og:title" content="السراج المنير - حلول تقنية متكاملة">
+    <meta property="og:description" content="السراج المنير - حلول تقنية متكاملة لتصميم المواقع والتطبيقات وخدمات الاستضافة">
+    <meta property="og:image" content="assets/images/about.jpg">
+    
+    <title>السراج المنير - حلول تقنية متكاملة</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.css">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" alt="شعار السراج المنير" height="60" width="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" aria-label="تبديل القائمة">
+                <div class="menu-toggle">
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">
+                            الرئيسية
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            من نحن
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">
+                            خدماتنا
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">
+                            أعمالنا
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hosting">
+                            الاستضافة
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">
+                            فريق العمل
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">
+                            آراء العملاء
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            اتصل بنا
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+       <!-- Hero Section -->
+       <header id="home" class="hero-section">
+        <div class="hero-particles" id="particles-js"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-lg-8 text-center" data-aos="fade-up">
+                    <div class="hero-content mx-auto">
+
+                        <h1 class="display-4 fw-bold mb-4">
+                            حلول رقمية متكاملة  <br>لنجاح أعمـــــالك
+                        </h1>
+                        <p class="lead mb-5">في السراج المنير نُصمم مواقع، تطبيقات، وأنظمة مبتكرة<br> تساعدك على التميز رقميًا، مع استضافة موثوقة ودعم متكامل.</p>
+                        <div class="hero-buttons d-flex justify-content-center gap-3">
+                            <a href="#services" class="btn btn-outline-light btn-lg px-4">خدماتنا</a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg px-4">تواصل معنا</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div>
+                    <span class="scroll-arrow"></span>
+                    <span class="scroll-arrow"></span>
+                    <span class="scroll-arrow"></span>
+                </div>
+            </a>
+        </div>
+        <div class="custom-shape-divider-bottom-1688551974">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">مــن نحــن</h2>
+                <p class="section-subtitle">نحن شركة رائدة في مجال الحلول التقنية المتكاملة</p>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+    <div class="about-img-wrapper mx-auto">
+        <img src="assets/images/about.jpg" alt="عن الشركة" class="img-fluid rounded-3 about-img-effect"  width="500" height="500">
+        <div class="about-img-glow"></div>
+    </div>
+</div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h3 class="mb-4" >الســــراج المنيـــــر .. إضاءة لعالمك الرقمي</h3>
+                    <p class="lead">نحن شركة متخصصة في تقديم حلول تقنية متكاملة   <br> تلبي احتياجات عملائنا بأعلى معايير الجودة والاحترافية.</p>
+                    <div class="row mt-5">
+                        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="text-center">
+                                <i class="fas fa-project-diagram fa-3x mb-3" style="color: #1e3a8a;"></i>
+                                <h3 class="counter" data-count="150">0</h3>
+                                <p class="mb-0">مشروع مكتمل</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="text-center">
+                                <i class="fas fa-users fa-3x mb-3"  style="color: #1e3a8a;"></i>
+                                <h3 class="counter" data-count="85">0</h3>
+                                <p class="mb-0">عميل راضٍ</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="text-center">
+                                <i class="fas fa-award fa-3x mb-3"  style="color: #1e3a8a;"></i>
+                                <h3 class="counter" data-count="10">0</h3>
+                                <p class="mb-0">سنوات خبرة</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">خدماتنا</h2>
+                <p class="section-subtitle">نقدم حلولاً تقنية متكاملة تلبي احتياجات عملك</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>تصميم المواقع الإلكترونية</h3>
+                        <p>تصميم مواقع احترافية متوافقة مع جميع الأجهزة، تعكس هوية علامتك التجارية وتحقق أهدافك.</p>
+                        <a href="#contact" class="btn btn-outline-primary">اطلب الخدمة</a>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>تصميم انظمة</h3>
+                        <p>نصمّم أنظمة احترافية مخصصة لتناسب طبيعة أعمالك، مع واجهات استخدام بسيطة وواضحة، وأداء عالي يعتمد عليه..</p>
+                        <a href="#contact" class="btn btn-outline-primary">اطلب الخدمة</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>خدمات الاستضافة</h3>
+                        <p>نقدّم لك خدمات استضافة عالية الأداء تضمن سرعة تحميل ممتازة، وأمان متقدّم، وتوافر دائم لموقعك أو نظامك على مدار الساعة.</p>
+                        <a href="#contact" class="btn btn-outline-primary">اطلب الخدمة</a>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>تطبيقات الجوال</h3>
+                        <p>نطوّر تطبيقات جوال احترافية تعمل بسلاسة على أنظمة Android وiOS، بتصميم جذاب وتجربة مستخدم متميزة.</p>
+                        <a href="#contact" class="btn btn-outline-primary">اطلب الخدمة</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">أعمالنا</h2>
+                <p class="section-subtitle">أبرز مشاريعنا في تصميم المواقع وتطبيقات الجوال والأنظمة</p>
+            </div>
+            
+            <!-- Portfolio Filter -->
+            <div class="portfolio-filter-container mb-5" data-aos="fade-up" data-aos-delay="100">
+                <div class="simple-filter">
+                    <button class="filter-btn active" data-category="all">الكل</button>
+                    <button class="filter-btn" data-category="websites">مواقع إلكترونية</button>
+                    <button class="filter-btn" data-category="apps">تطبيقات جوال</button>
+                    <button class="filter-btn" data-category="systems">أنظمة إدارة</button>
+                </div>
+            </div>
+            
+            <!-- Portfolio Grid -->
+            <div class="row g-4 portfolio-grid">
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="websites" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="#" alt="موقع إلكتروني 1" class="img-fluid" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" data-gallery="portfolioGallery" class="portfolio-preview" title="معاينة"><i class="fas fa-eye"></i></a>
+                                    <a href="#" class="portfolio-details" title="تفاصيل المشروع"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                            <span class="portfolio-badge">موقع إلكتروني</span>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>موقع شركة التقنية المتكاملة</h3>
+                            <p>تصميم وتطوير موقع شركة متكامل مع لوحة تحكم سهلة الاستخدام</p>
+                            <div class="portfolio-tags">
+                                <span>تصميم متجاوب</span>
+                                <span>لوحة تحكم</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="apps" data-aos="fade-up" data-aos-delay="150">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="#" alt="تطبيق جوال 1" class="img-fluid" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" data-gallery="portfolioGallery" class="portfolio-preview" title="معاينة"><i class="fas fa-eye"></i></a>
+                                    <a href="#" class="portfolio-details" title="تفاصيل المشروع"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                            <span class="portfolio-badge">تطبيق جوال</span>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>تطبيق توصيل طلبات</h3>
+                            <p>تطبيق متكامل لإدارة وتوصيل الطلبات مع نظام تتبع مباشر</p>
+                            <div class="portfolio-tags">
+                                <span>iOS</span>
+                                <span>Android</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="systems" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="2" alt="نظام إدارة 1" class="img-fluid" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" data-gallery="portfolioGallery" class="portfolio-preview" title="معاينة"><i class="fas fa-eye"></i></a>
+                                    <a href="#" class="portfolio-details" title="تفاصيل المشروع"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                            <span class="portfolio-badge">نظام إدارة</span>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>نظام إدارة الموارد البشرية</h3>
+                            <p>نظام متكامل لإدارة شؤون الموظفين والحضور والرواتب</p>
+                            <div class="portfolio-tags">
+                                <span>سحابي</span>
+                                <span>متكامل</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="websites" data-aos="fade-up" data-aos-delay="250">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="#" alt="موقع إلكتروني 2" class="img-fluid" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" data-gallery="portfolioGallery" class="portfolio-preview" title="معاينة"><i class="fas fa-eye"></i></a>
+                                    <a href="#" class="portfolio-details" title="تفاصيل المشروع"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                            <span class="portfolio-badge">موقع إلكتروني</span>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>متجر إلكتروني للموضة</h3>
+                            <p>تصميم متجر إلكتروني متكامل مع أنظمة الدفع والشحن</p>
+                            <div class="portfolio-tags">
+                                <span>متجر إلكتروني</span>
+                                <span>متجاوب</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="apps" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src=#" alt="تطبيق جوال 2" class="img-fluid" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href=#" data-gallery="portfolioGallery" class="portfolio-preview" title="معاينة"><i class="fas fa-eye"></i></a>
+                                    <a href="#" class="portfolio-details" title="تفاصيل المشروع"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                            <span class="portfolio-badge">تطبيق جوال</span>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>تطبيق حجز مواعيد</h3>
+                            <p>تطبيق لحجز المواعيد في العيادات والمستشفيات</p>
+                            <div class="portfolio-tags">
+                                <span>iOS</span>
+                                <span>Android</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="systems" data-aos="fade-up" data-aos-delay="350">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="#" alt="نظام إدارة 2" class="img-fluid" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" data-gallery="portfolioGallery" class="portfolio-preview" title="معاينة"><i class="fas fa-eye"></i></a>
+                                    <a href="#" class="portfolio-details" title="تفاصيل المشروع"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                            <span class="portfolio-badge">نظام إدارة</span>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>نظام إدارة المخازن</h3>
+                            <p>نظام متكامل لإدارة المخزون والمشتريات والمبيعات</p>
+                            <div class="portfolio-tags">
+                                <span>سحابي</span>
+                                <span>تقارير</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5" data-aos="fade-up">
+                <a href="#contact" class="btn btn-primary btn-lg">اطلب خدمة مماثلة</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hosting Section -->
+    <section id="hosting" class="py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">حلول الاستضافة</h2>
+                <p class="section-subtitle">اختر الباقة المناسبة لموقعك مع أفضل أداء وأمان</p>
+            </div>
+            <div class="row g-4">
+                <!-- Basic Plan -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>الباقة الأساسية</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">9.99</span>
+                                <span class="period">/شهرياً</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> مساحة تخزين 50 جيجابايت</li>
+                                <li><i class="fas fa-check"></i> نطاق مجاني</li>
+                                <li><i class="fas fa-check"></i> بريد إلكتروني غير محدود</li>
+                                <li><i class="fas fa-check"></i> نسخ احتياطي أسبوعي</li>
+                                <li><i class="fas fa-check"></i> دعم فني 24/7</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#contact" class="btn btn-outline-primary">اشترك الآن</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Professional Plan (Featured) -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
+                    <div class="pricing-card featured">
+                        <div class="popular-badge">الأكثر طلباً</div>
+                        <div class="pricing-header">
+                            <h3>الباقة الاحترافية</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">19.99</span>
+                                <span class="period">/شهرياً</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> مساحة تخزين 100 جيجابايت</li>
+                                <li><i class="fas fa-check"></i> نطاق مجاني</li>
+                                <li><i class="fas fa-check"></i> بريد إلكتروني غير محدود</li>
+                                <li><i class="fas fa-check"></i> نسخ احتياطي يومي</li>
+                                <li><i class="fas fa-check"></i> شهادة SSL مجانية</li>
+                                <li><i class="fas fa-check"></i> دعم فني 24/7</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#contact" class="btn btn-primary">اشترك الآن</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Enterprise Plan -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>الباقة المتقدمة</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">39.99</span>
+                                <span class="period">/شهرياً</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> مساحة تخزين غير محدودة</li>
+                                <li><i class="fas fa-check"></i> نطاق مجاني</li>
+                                <li><i class="fas fa-check"></i> بريد إلكتروني غير محدود</li>
+                                <li><i class="fas fa-check"></i> نسخ احتياطي يومي</li>
+                                <li><i class="fas fa-check"></i> شهادة SSL مجانية</li>
+                                <li><i class="fas fa-check"></i> خادم خاص افتراضي (VPS)</li>
+                                <li><i class="fas fa-check"></i> دعم فني 24/7</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#contact" class="btn btn-outline-primary">اشترك الآن</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Hosting Features -->
+            <div class="row mt-5 pt-5">
+                <div class="col-12 text-center mb-5">
+                    <h3 class="mb-4">لماذا تختار استضافتنا؟</h3>
+                </div>
+                
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h4>أداء فائق السرعة</h4>
+                        <p>أجهزة خوادم سريعة مزودة بأحدث معالجات Intel Xeon وذاكرة SSD لتقديم أسرع أداء لموقعك.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>حماية متقدمة</h4>
+                        <p>نوفر طبقات متعددة من الحماية تشمل جدار حماية متطور وكشف عن الاختراق وحماية من هجمات DDoS.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h4>دعم فني متميز</h4>
+                        <p>فريق دعم فني محترف متاح على مدار الساعة طوال أيام الأسبوع لمساعدتك في أي استفسار.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">فريق العمل</h2>
+                <p class="section-subtitle">تعرف على فريقنا المحترف الذي يعمل بجد لتحقيق أفضل النتائج لعملائنا</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <!-- Team Member 1 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-card">
+                        <div class="team-img">
+                            <img src="assets/images/em1.jpg" alt="عضو الفريق" class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="team-info">
+                            <h4>أحمد محمد</h4>
+                            <span class="position">المدير التنفيذي</span>
+                            <p class="bio">خبرة أكثر من 10 سنوات في إدارة المشاريع التقنية</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-card">
+                        <div class="team-img">
+                            <img src="assets/images/em3.jpg" alt="عضو الفريق" class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="team-info">
+                            <h4>سارة أحمد</h4>
+                            <span class="position">مصممة واجهات المستخدم</span>
+                            <p class="bio">خبيرة في تصميم تجربة المستخدم والواجهات التفاعلية</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="team-card">
+                        <div class="team-img">
+                            <img src="assets/images/em2.jpg" alt="عضو الفريق" class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="team-info">
+                            <h4>خالد عبدالله</h4>
+                            <span class="position">مطور الويب الرئيسي</span>
+                            <p class="bio">متخصص في تطوير تطبيقات الويب الحديثة</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 4 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="team-card">
+                        <div class="team-img">
+                            <img src="assets/images/em4.jpg" alt="عضو الفريق" class="img-fluid" loading="lazy">
+                    
+                        </div>
+                        <div class="team-info">
+                            <h4>نورا سعيد</h4>
+                            <span class="position">خبيرة تسويق رقمي</span>
+                            <p class="bio">خبرة في استراتيجيات التسويق الرقمي وتحسين محركات البحث</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 position-relative">
+        <div class="container position-relative">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+            
+                <h2 class="section-title mb-3">آراء عملائنا الكرام</h2>
+                <div class="section-divider">
+                    <span></span>
+                    <i class="fas fa-quote-right"></i>
+                    <span></span>
+                </div>
+                <p class="section-subtitle text-muted mt-3">انطباعات وتجارب عملائنا مع خدماتنا</p>
+            </div>
+            
+            <div class="testimonial-section" data-aos="fade-up" data-aos-delay="100">
+                <div class="scroll-wrapper">
+                    <div class="testimonial-track">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-card">
+                            <p>لقد كانت تجربة رائعة العمل مع فريق السراج المنير. لقد قدموا خدمة احترافية وتجاوزوا توقعاتنا بكثير. أنصح بهم بشدة لأي شخص يبحث عن حلول تقنية عالية الجودة.</p>
+                            <div class="testimonial-divider"></div>
+                            <div class="testimonial-author">محمد علي</div>
+                            <div class="testimonial-job">مدير تسويق - شركة التقنية المتطورة</div>
+                            <div class="stars mt-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial-card">
+                            <p>فريق محترف للغاية ومبدع. لقد ساعدونا في تحويل رؤيتنا إلى حقيقة ملموسة. نعتبرهم الآن شريكًا استراتيجيًا لنا في رحلتنا الرقمية.</p>
+                            <div class="testimonial-divider"></div>
+                            <div class="testimonial-author">سارة الخالد</div>
+                            <div class="testimonial-job">الرئيس التنفيذي - شركة الإبداع الرقمي</div>
+                            <div class="stars mt-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial-card">
+                            <p>منذ أن بدأنا العمل مع السراج المنير، شهدنا زيادة كبيرة في تفاعل العملاء مع موقعنا. فريقهم استمع إلى احتياجاتنا وقدم حلولاً مبتكرة.</p>
+                            <div class="testimonial-divider"></div>
+                            <div class="testimonial-author">خالد السعيد</div>
+                            <div class="testimonial-job">مدير تقنية المعلومات - مجموعة الأعمال الحديثة</div>
+                            <div class="stars mt-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 4 -->
+                        <div class="testimonial-card">
+                            <p>السراج المنير هم الأفضل في مجالهم. لقد ساعدونا في تطوير تطبيق جوال ناجح حقق انتشاراً واسعاً. ننصح بهم بشدة لكل من يبحث عن جودة واحترافية في عالم البرمجة والتطوير.</p>
+                            <div class="testimonial-divider"></div>
+                            <div class="testimonial-author">نورا سليمان</div>
+                            <div class="testimonial-job">مديرة مشاريع - شركة التقنية الذهبية</div>
+                            <div class="stars mt-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 5 -->
+                        <div class="testimonial-card">
+                            <p>تعامل احترافي من البداية للنهاية، استلمت الموقع قبل الموعد المحدد وبجودة عالية. الدعم الفني المتميز والمتابعة المستمرة جعلت من تجربتنا معهم استثنائية.</p>
+                            <div class="testimonial-divider"></div>
+                            <div class="testimonial-author">أحمد عبد الله</div>
+                            <div class="testimonial-job">مطور ويب</div>
+                            <div class="stars mt-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 6 -->
+                        <div class="testimonial-card">
+                            <p>أنصح الجميع بتجربتهم، فريق مبدع فعلاً واستفدت منهم كثيراً في تطوير فكرتي. التفاني في العمل والاهتمام بالتفاصيل كان مميزاً.</p>
+                            <div class="testimonial-divider"></div>
+                            <div class="testimonial-author">ليلى خالد</div>
+                            <div class="testimonial-job">رائدة أعمال</div>
+                            <div class="stars mt-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        
+        </div>
+    </section>
+
+ 
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">تواصل معنا</h2>
+                <p class="section-subtitle">يسعدنا تواصلك معنا وسنرد عليك في أقرب وقت ممكن</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+                    <form id="contactForm" class="contact-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="الاسم الكامل" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control text-start" placeholder="البريد الإلكتروني" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="الموضوع">
+                        </div>
+                        <div class="mb-4">
+                            <textarea class="form-control" rows="5" placeholder="رسالتك" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">إرسال الرسالة</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left">
+                    <div class="contact-info">
+                        <div class="contact-item d-flex mb-4">
+                            <div class="icon me-3">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h5>العنوان</h5>
+                                <p>الرياض، المملكة العربية السعودية</p>
+                            </div>
+                        </div>
+                        <div class="contact-item d-flex mb-4">
+                            <div class="icon me-3">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h5>الهاتف</h5>
+                                <p>+966 50 000 0000</p>
+                            </div>
+                        </div>
+                        <div class="contact-item d-flex mb-4">
+                            <div class="icon me-3">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h5>البريد الإلكتروني</h5>
+                                <p>info@alsiraj-almunir.com</p>
+                            </div>
+                        </div>
+                        <div class="social-media mt-4">
+                            <h5 class="mb-3">تابعنا على</h5>
+                            <div class="social-links">
+                              
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Success Modal -->
+    <div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true" dir="rtl">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header border-0 d-flex justify-content-start">
+                    <button type="button" class="btn-close ms-0 me-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center py-4 px-5">
+                    <div class="success-animation">
+                        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                            <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                            <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                        </svg>
+                    </div>
+                    <h3 class="modal-title mb-3 text-primary fw-bold" id="thankYouModalLabel">تم إرسال رسالتك بنجاح</h3>
+                    <p class="text-muted mb-4">شكراً لتواصلك معنا. لقد استلمنا رسالتك وسنتواصل معك في أقرب وقت ممكن.</p>
+                </div>
+                <div class="modal-footer border-0 justify-content-center pb-5 pt-0">
+                    <button type="button" class="btn btn-primary px-4 py-2" id="confirmBtn" data-bs-dismiss="modal">حسناً</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0">جميع الحقوق محفوظة &copy; 2023 السراج المنير</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white me-3">سياسة الخصوصية</a>
+                    <a href="#" class="text-white">شروط الاستخدام</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+<!-- Scripts -->
+<!-- Bootstrap JS Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
